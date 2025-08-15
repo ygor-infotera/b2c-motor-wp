@@ -1,84 +1,101 @@
-# Infotravel Motor WordPress Plugin
+# Plugin Infotravel Motor para WordPress
 
-## Version 3.1 - Unified Motor
+## Versão 3.1 - Motor Unificado
 
-This WordPress plugin provides integration with Infotravel's search engines for hotels, flights, packages, and services through a single, unified interface.
+Este plugin WordPress fornece integração com os motores de busca do Infotravel para hotéis, voos, pacotes e serviços através de uma interface única e unificada.
 
 ## Download
 
-**Latest Release:** [v3.1](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.1)
+**Última Versão:** [v3.1](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.1)
 
-**Direct Download:** [Download v3.1](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.1.zip)
+**Download Direto:** [Baixar v3.1](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.1.zip)
 
-## Features
+## Funcionalidades
 
-### Unified Motor Shortcode
+### Shortcode do Motor Unificado
 
-The `[infotravel_motor_unified]` shortcode provides a complete, tabbed interface that includes all search engines in one place:
+O shortcode `[infotravel_motor_unified]` fornece uma interface completa com abas que inclui todos os motores de busca em um só lugar:
 
-- **Hotel Search** - Accommodation search
-- **Service Search** - Service search
-- **Flight Search** - Air ticket search
-- **Dynamic Package** - Build your own package
-- **Flight Package** - Flight + hotel packages
-- **Hotel Package** - Hotel packages
-- **Bus + Hotel Package** - Bus + hotel packages
-- **Bus + Services Package** - Bus + services packages
+- **Busca de Hotel** - Busca de hospedagem
+- **Busca de Serviços** - Busca de serviços
+- **Busca de Voo** - Busca de passagens aéreas
+- **Pacote Dinâmico** - Monte seu próprio pacote
+- **Pacote Aéreo** - Pacotes de voo + hotel
+- **Pacote Hotel** - Pacotes de hotel
+- **Pacote Rodoviário + Hotel** - Pacotes de ônibus + hotel
+- **Pacote Rodoviário + Serviços** - Pacotes de ônibus + serviços
 
-### Configuration Options
+### Opções de Configuração
 
-The plugin includes configurable options for:
+O plugin inclui opções configuráveis para:
 
-- **jQuery Loading** - Automatically load jQuery
-- **jQuery UI Loading** - Automatically load jQuery UI
-- **CSS Loading** - Automatically load motor CSS
-- **Tabs Loading** - Enable/disable tab functionality
+- **Carregamento do jQuery** - Carregar jQuery automaticamente
+- **Carregamento do jQuery UI** - Carregar jQuery UI automaticamente
+- **Carregamento do CSS** - Carregar CSS do motor automaticamente
+- **Carregamento das Abas** - Ativar/desativar funcionalidade de abas
 
-## Installation
+## Instalação
 
-1. Upload the plugin to your WordPress plugins directory
-2. Activate the plugin
-3. Configure your Infotravel credentials in the admin panel
-4. Use the shortcode in your posts or pages
+1. Faça upload do plugin para o diretório de plugins do WordPress
+2. Ative o plugin
+3. Configure suas credenciais do Infotravel no painel administrativo
+4. Use o shortcode em seus posts ou páginas
 
-## Usage
+## Uso
 
-### Single Shortcode
+### Shortcode Único
 
 ```php
 <?php do_shortcode("[infotravel_motor_unified]"); ?>
 ```
 
-Or simply:
+Ou simplesmente:
 
 ```
 [infotravel_motor_unified]
 ```
 
-## Configuration
+## Configuração
 
-1. Go to **Settings > Infotravel** in your WordPress admin
-2. Enter your Infotravel credentials:
-   - **Domain** - Your Infotravel B2C domain
-   - **Key** - Your API key
-   - **Company** - Your company identifier
-3. Configure dependency loading options
-4. Save changes
+1. Vá para **Configurações > Infotravel** no seu painel administrativo do WordPress
+2. Digite suas credenciais do Infotravel:
 
-## Requirements
+   - **Domínio** - Seu domínio B2C do Infotravel
+   - **Chave** - Sua chave de API
+   - **Empresa** - Seu identificador de empresa
 
-- WordPress 3.7 or higher
-- PHP 7.0 or higher
-- Infotravel B2C account
+3. Configure a **URL Base do Motor** (padrão: `https://motorv2.infotravel.com.br`)
 
-## Support
+   - URL base para o motor de busca
 
-For support, please contact Infotera Tecnologia at suporte@infotera.com.br
+4. Configure a **URL Base da API**
 
-## Changelog
+   - URL base para as APIs, URL do seu Infotravel
 
-### Version 3.1
+5. Configure as **Opções de Carregamento de Dependências**:
 
-- Updated admin configuration placeholders with correct default URLs
-- Improved user experience with more descriptive placeholder text
-- Fixed placeholder text for engine base URL and API base URL
+   - **Carregar CSS** - Carregar CSS do motor automaticamente
+   - **Carregar Abas** - Carregar funcionalidade de abas automaticamente
+
+6. Configure a **Ativação dos Motores** (ativar/desativar motores de busca específicos):
+
+   - **Hotel** - Motor de busca de hotel
+   - **Serviços** - Motor de busca de serviços
+   - **Voo** - Motor de busca de voo
+   - **Pacote Dinâmico** - Construtor de pacotes dinâmicos
+   - **Pacote Aéreo** - Pacotes de voo + hotel
+   - **Pacote Hotel** - Pacotes de hotel
+   - **Pacote Rodoviário + Hotel** - Pacotes de ônibus + hotel
+   - **Pacote Rodoviário + Serviços** - Pacotes de ônibus + serviços
+
+7. Salve as alterações
+
+## Requisitos
+
+- WordPress 3.7 ou superior
+- PHP 7.0 ou superior
+- Conta B2C do Infotravel
+
+## Suporte
+
+Para suporte, entre em contato com a Infotera Tecnologia em suporte@infotera.com.br
