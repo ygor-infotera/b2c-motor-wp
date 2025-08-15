@@ -4,6 +4,12 @@
 
 This WordPress plugin provides integration with Infotravel's search engines for hotels, flights, packages, and services through a single, unified interface.
 
+## Download
+
+**Latest Release:** [v3.1](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.1)
+
+**Direct Download:** [Download v3.1](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.1.zip)
+
 ## Features
 
 ### Unified Motor Shortcode
@@ -76,11 +82,3 @@ For support, please contact Infotera Tecnologia at suporte@infotera.com.br
 - Updated admin configuration placeholders with correct default URLs
 - Improved user experience with more descriptive placeholder text
 - Fixed placeholder text for engine base URL and API base URL
-
-### Version 3.0
-
-- Complete rewrite with unified motor interface
-- Single shortcode for all search engines
-- Modern tabbed interface
-- Configurable dependency loading
-- Removed legacy individual motor shortcodes
