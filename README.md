@@ -1,6 +1,6 @@
 # Infotravel Motor WordPress Plugin
 
-## Version 3.0 - Unified Motor
+## Version 3.1 - Unified Motor
 
 This WordPress plugin provides integration with Infotravel's search engines for hotels, flights, packages, and services through a single, unified interface.
 
@@ -70,6 +70,12 @@ Or simply:
 For support, please contact Infotera Tecnologia at suporte@infotera.com.br
 
 ## Changelog
+
+### Version 3.1
+
+- Updated admin configuration placeholders with correct default URLs
+- Improved user experience with more descriptive placeholder text
+- Fixed placeholder text for engine base URL and API base URL
 
 ### Version 3.0
 
