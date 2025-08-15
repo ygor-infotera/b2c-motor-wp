@@ -128,11 +128,11 @@
                                                     <input id="engine_base_url" name="engine_base_url"
                                                         type="text" size="30"
                                                         value="<?php echo get_option('b2c_engine_base_url'); ?>"
-                                                        placeholder="https://api.dominio.com.br"
+                                                        placeholder="https://motorv2.infotravel.com.br"
                                                         class="regular-text code"
                                                         autocomplete="off">
                                                 </span>
-                                                <br><small>URL base para o motor de busca (deixe vazio para usar o domínio principal)</small>
+                                                <br><small>URL base para o motor de busca por padrão: (https://motorv2.infotravel.com.br)</small>
                                             </td>
                                         </tr>
                                         <tr>
@@ -145,11 +145,11 @@
                                                     <input id="base_url_api" name="base_url_api"
                                                         type="text" size="30"
                                                         value="<?php echo get_option('b2c_base_url_api'); ?>"
-                                                        placeholder="https://api.dominio.com.br"
+                                                        placeholder="https://demo.infotravel.com.br"
                                                         class="regular-text code"
                                                         autocomplete="off">
                                                 </span>
-                                                <br><small>URL base para as APIs (deixe vazio para usar o domínio principal)</small>
+                                                <br><small>URL base para as APIs, url do seu infotravel</small>
                                             </td>
                                         </tr>
                                         <tr>
