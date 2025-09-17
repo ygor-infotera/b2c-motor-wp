@@ -74,9 +74,9 @@ Ou simplesmente:
 
 5. Configure as **Opções Avançadas do Motor**:
 
-   - **Whitelabel** - Configuração de whitelabel para o motor
-   - **Iframe** - Configuração de iframe para o motor
-   - **Target** - Configuração de target para o motor
+   - **Whitelabel** - Ativar whitelabel no motor
+   - **Iframe** - Ativar iframe no motor
+   - **Target** - Ativar target no motor
 
 6. Configure as **Opções de Carregamento de Dependências**:
 

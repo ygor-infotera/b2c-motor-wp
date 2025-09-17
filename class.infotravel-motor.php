@@ -36,9 +36,9 @@ class Infotravel
         $dominio = get_option("b2c_dominio");
         $engineBaseUrl = get_option("b2c_engine_base_url", $dominio);
         $baseUrlApi = get_option("b2c_base_url_api", $dominio);
-        $whitelabel = get_option("b2c_whitelabel", '');
-        $iframe = get_option("b2c_iframe", '');
-        $target = get_option("b2c_target", '');
+        $whitelabel = get_option("b2c_whitelabel", '0') === '1';
+        $iframe = get_option("b2c_iframe", '0') === '1';
+        $target = get_option("b2c_target", '0') === '1';
 
         if (empty($chave) || empty($dominio) || empty($sgEmpresa)) {
             return 'Plugin Infotravel Motor não configurado.';
@@ -81,9 +81,9 @@ class Infotravel
                 b2cUrl: \'' . esc_url($dominio) . '\',
                 engineBaseUrl: \'' . esc_url($engineBaseUrl) . '\',
                 baseUrlApi: \'' . esc_url($baseUrlApi) . '\',
-                whitelabel: \'' . esc_js($whitelabel) . '\',
-                iframe: \'' . esc_js($iframe) . '\',
-                target: \'' . esc_js($target) . '\'
+                whitelabel: ' . ($whitelabel ? 'true' : 'false') . ',
+                iframe: ' . ($iframe ? 'true' : 'false') . ',
+                target: ' . ($target ? 'true' : 'false') . '
             });
 
             // Initialize enabled motors
@@ -202,9 +202,9 @@ class Infotravel
         update_option('b2c_empresa', '');
         update_option('b2c_engine_base_url', '');
         update_option('b2c_base_url_api', '');
-        update_option('b2c_whitelabel', '');
-        update_option('b2c_iframe', '');
-        update_option('b2c_target', '');
+        update_option('b2c_whitelabel', '0');
+        update_option('b2c_iframe', '0');
+        update_option('b2c_target', '0');
 
         // Set default dependency loading options
         update_option('b2c_load_css', '1');        // Enable CSS by default

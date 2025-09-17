@@ -185,13 +185,10 @@
                                             <td width="5%" />
                                             <td align="left">
                                                 <span class="infotravel-url-b2c-hospedagem">
-                                                    <input id="whitelabel" name="whitelabel" type="text" size="30"
-                                                        value="<?php echo esc_attr(get_option('b2c_whitelabel', '')); ?>"
-                                                        placeholder="whitelabel"
-                                                        class="regular-text code"
-                                                        autocomplete="off">
+                                                    <input id="whitelabel" name="whitelabel" type="checkbox"
+                                                        value="1" <?php echo (get_option('b2c_whitelabel', '0') === '1') ? 'checked' : ''; ?>>
+                                                    <label for="whitelabel">Ativar whitelabel no motor</label>
                                                 </span>
-                                                <br><small>Configuração de whitelabel para o motor</small>
                                             </td>
                                         </tr>
                                         <tr>
@@ -201,13 +198,10 @@
                                             <td width="5%" />
                                             <td align="left">
                                                 <span class="infotravel-url-b2c-hospedagem">
-                                                    <input id="iframe" name="iframe" type="text" size="30"
-                                                        value="<?php echo esc_attr(get_option('b2c_iframe', '')); ?>"
-                                                        placeholder="iframe"
-                                                        class="regular-text code"
-                                                        autocomplete="off">
+                                                    <input id="iframe" name="iframe" type="checkbox"
+                                                        value="1" <?php echo (get_option('b2c_iframe', '0') === '1') ? 'checked' : ''; ?>>
+                                                    <label for="iframe">Ativar iframe no motor</label>
                                                 </span>
-                                                <br><small>Configuração de iframe para o motor</small>
                                             </td>
                                         </tr>
                                         <tr>
@@ -217,13 +211,10 @@
                                             <td width="5%" />
                                             <td align="left">
                                                 <span class="infotravel-url-b2c-hospedagem">
-                                                    <input id="target" name="target" type="text" size="30"
-                                                        value="<?php echo esc_attr(get_option('b2c_target', '')); ?>"
-                                                        placeholder="target"
-                                                        class="regular-text code"
-                                                        autocomplete="off">
+                                                    <input id="target" name="target" type="checkbox"
+                                                        value="1" <?php echo (get_option('b2c_target', '0') === '1') ? 'checked' : ''; ?>>
+                                                    <label for="target">Ativar target no motor</label>
                                                 </span>
-                                                <br><small>Configuração de target para o motor</small>
                                             </td>
                                         </tr>
                                     </tbody>
