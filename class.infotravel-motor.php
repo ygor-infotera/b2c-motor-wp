@@ -36,6 +36,9 @@ class Infotravel
         $dominio = get_option("b2c_dominio");
         $engineBaseUrl = get_option("b2c_engine_base_url", $dominio);
         $baseUrlApi = get_option("b2c_base_url_api", $dominio);
+        $whitelabel = get_option("b2c_whitelabel", '');
+        $iframe = get_option("b2c_iframe", '');
+        $target = get_option("b2c_target", '');
 
         if (empty($chave) || empty($dominio) || empty($sgEmpresa)) {
             return 'Plugin Infotravel Motor não configurado.';
@@ -77,7 +80,10 @@ class Infotravel
                 sgCompany: \'' . esc_js($sgEmpresa) . '\',
                 b2cUrl: \'' . esc_url($dominio) . '\',
                 engineBaseUrl: \'' . esc_url($engineBaseUrl) . '\',
-                baseUrlApi: \'' . esc_url($baseUrlApi) . '\'
+                baseUrlApi: \'' . esc_url($baseUrlApi) . '\',
+                whitelabel: \'' . esc_js($whitelabel) . '\',
+                iframe: \'' . esc_js($iframe) . '\',
+                target: \'' . esc_js($target) . '\'
             });
 
             // Initialize enabled motors
@@ -196,6 +202,9 @@ class Infotravel
         update_option('b2c_empresa', '');
         update_option('b2c_engine_base_url', '');
         update_option('b2c_base_url_api', '');
+        update_option('b2c_whitelabel', '');
+        update_option('b2c_iframe', '');
+        update_option('b2c_target', '');
 
         // Set default dependency loading options
         update_option('b2c_load_css', '1');        // Enable CSS by default
@@ -224,6 +233,9 @@ class Infotravel
         delete_option('b2c_empresa');
         delete_option('b2c_engine_base_url');
         delete_option('b2c_base_url_api');
+        delete_option('b2c_whitelabel');
+        delete_option('b2c_iframe');
+        delete_option('b2c_target');
 
         // Clean up dependency options
         delete_option('b2c_load_css');

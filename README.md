@@ -1,14 +1,14 @@
 # Plugin Infotravel Motor para WordPress
 
-## Versão 3.2 - Motor Unificado
+## Versão 3.3 - Motor Unificado
 
 Este plugin WordPress fornece integração com os motores de busca do Infotravel para hotéis, voos, pacotes e serviços através de uma interface única e unificada.
 
 ## Download
 
-**Última Versão:** [v3.2](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.2)
+**Última Versão:** [v3.3](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.3)
 
-**Download Direto:** [Baixar v3.2](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.2.zip)
+**Download Direto:** [Baixar v3.3](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.3.zip)
 
 ## Funcionalidades
 
@@ -72,12 +72,18 @@ Ou simplesmente:
 
    - URL base para as APIs, URL do seu Infotravel
 
-5. Configure as **Opções de Carregamento de Dependências**:
+5. Configure as **Opções Avançadas do Motor**:
+
+   - **Whitelabel** - Configuração de whitelabel para o motor
+   - **Iframe** - Configuração de iframe para o motor
+   - **Target** - Configuração de target para o motor
+
+6. Configure as **Opções de Carregamento de Dependências**:
 
    - **Carregar CSS** - Carregar CSS do motor automaticamente
    - **Carregar Abas** - Carregar funcionalidade de abas automaticamente
 
-6. Configure a **Ativação dos Motores** (ativar/desativar motores de busca específicos):
+7. Configure a **Ativação dos Motores** (ativar/desativar motores de busca específicos):
 
    - **Hotel** - Motor de busca de hotel
    - **Serviços** - Motor de busca de serviços
@@ -88,7 +94,7 @@ Ou simplesmente:
    - **Pacote Rodoviário + Hotel** - Pacotes de ônibus + hotel
    - **Pacote Rodoviário + Serviços** - Pacotes de ônibus + serviços
 
-7. Salve as alterações
+8. Salve as alterações
 
 ## Requisitos
 

@@ -160,6 +160,9 @@ class Infotravel_Admin
         update_option('b2c_empresa', sanitize_text_field($_POST["empresa"]));
         update_option('b2c_engine_base_url', sanitize_text_field($_POST["engine_base_url"]));
         update_option('b2c_base_url_api', sanitize_text_field($_POST["base_url_api"]));
+        update_option('b2c_whitelabel', sanitize_text_field($_POST["whitelabel"]));
+        update_option('b2c_iframe', sanitize_text_field($_POST["iframe"]));
+        update_option('b2c_target', sanitize_text_field($_POST["target"]));
 
         // Save dependency loading options
         update_option('b2c_load_css', isset($_POST["load_css"]) ? '1' : '0');
