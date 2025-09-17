@@ -11,7 +11,7 @@
      *  Plugin Name: Infotravel - Motor de Busca JS
      *  Plugin URI: https://github.com/InfoteraTecnologia/b2c-motor-wp
      *  Description: Plugin para inserção dos motores de busca do infotravel.
-     *  Version: 3.3
+     *  Version: 3.4
      *  Author: INFOTERA TECNOLOGIA
      *  Author URI: http://infotera.com.br/
      *  License:
@@ -19,7 +19,7 @@
      * Text Domain: infotravel-motor
      *
      * @author INFOTERA TECNOLOGIA
-     * @version 3.3
+     * @version 3.4
     */
 
 // Certifique-se de não expor nenhuma informação se for chamado diretamente
@@ -28,7 +28,7 @@ if (!function_exists('add_action')) {
     exit;
 }
 
-define('INFOTRAVEL_VERSION', '3.3');
+define('INFOTRAVEL_VERSION', '3.4');
 define('INFOTRAVEL__MINIMUM_WP_VERSION', '3.7');
 define('INFOTRAVEL__PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('INFOTRAVEL__PLUGIN_URL', plugins_url('', __FILE__));
