@@ -74,7 +74,7 @@ Ou simplesmente:
 
 5. Configure as **Opções Avançadas do Motor**:
 
-   - **Whitelabel** - Ativar whitelabel no motor
+   - **WhiteLabel** - Ativar white label no motor
    - **Iframe** - Ativar iframe no motor
    - **Target** - Ativar target no motor
 

@@ -36,7 +36,7 @@ class Infotravel
         $dominio = get_option("b2c_dominio");
         $engineBaseUrl = get_option("b2c_engine_base_url", $dominio);
         $baseUrlApi = get_option("b2c_base_url_api", $dominio);
-        $whitelabel = get_option("b2c_whitelabel", '0') === '1';
+        $whiteLabel = get_option("b2c_white_label", '0') === '1';
         $iframe = get_option("b2c_iframe", '0') === '1';
         $target = get_option("b2c_target", '0') === '1';
 
@@ -81,7 +81,7 @@ class Infotravel
                 b2cUrl: \'' . esc_url($dominio) . '\',
                 engineBaseUrl: \'' . esc_url($engineBaseUrl) . '\',
                 baseUrlApi: \'' . esc_url($baseUrlApi) . '\',
-                whitelabel: ' . ($whitelabel ? 'true' : 'false') . ',
+                whiteLabel: ' . ($whiteLabel ? 'true' : 'false') . ',
                 iframe: ' . ($iframe ? 'true' : 'false') . ',
                 target: ' . ($target ? 'true' : 'false') . '
             });
@@ -202,7 +202,7 @@ class Infotravel
         update_option('b2c_empresa', '');
         update_option('b2c_engine_base_url', '');
         update_option('b2c_base_url_api', '');
-        update_option('b2c_whitelabel', '0');
+        update_option('b2c_white_label', '0');
         update_option('b2c_iframe', '0');
         update_option('b2c_target', '0');
 
@@ -233,7 +233,7 @@ class Infotravel
         delete_option('b2c_empresa');
         delete_option('b2c_engine_base_url');
         delete_option('b2c_base_url_api');
-        delete_option('b2c_whitelabel');
+        delete_option('b2c_white_label');
         delete_option('b2c_iframe');
         delete_option('b2c_target');
 

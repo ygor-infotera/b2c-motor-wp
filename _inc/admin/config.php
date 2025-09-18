@@ -180,14 +180,14 @@
                                         </tr>
                                         <tr>
                                             <th class="infotravel-url-b2c-hospedagem" width="20%" align="left" scope="row">
-                                                Whitelabel
+                                                WhiteLabel
                                             </th>
                                             <td width="5%" />
                                             <td align="left">
                                                 <span class="infotravel-url-b2c-hospedagem">
-                                                    <input id="whitelabel" name="whitelabel" type="checkbox"
-                                                        value="1" <?php echo (get_option('b2c_whitelabel', '0') === '1') ? 'checked' : ''; ?>>
-                                                    <label for="whitelabel">Ativar whitelabel no motor</label>
+                                                    <input id="whiteLabel" name="whiteLabel" type="checkbox"
+                                                        value="1" <?php echo (get_option('b2c_white_label', '0') === '1') ? 'checked' : ''; ?>>
+                                                    <label for="whiteLabel">Ativar white label no motor</label>
                                                 </span>
                                             </td>
                                         </tr>
