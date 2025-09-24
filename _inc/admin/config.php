@@ -19,30 +19,6 @@
 
                 <span style="font-weight: bold; color: #0073aa;">Motor Unificado:</span><br />
                 <code>&lt;?php do_shortcode("[infotravel_motor_unified]"); ?&gt;</code>
-                <br /><small>Este shortcode carrega todos os motores em uma interface com tabs</small>
-
-                <br /><br />
-                <p>O plugin funciona com a utilização do CSS, se você não utiliza em seu site por favor
-                    adicione no seu código: </p>
-                <div style="width: 97.2%;background: #ededed;padding: 10px;word-break: break-word;">
-
-                    <strong>Css:</strong>
-                    <br />
-                    <?= htmlspecialchars('<link rel="stylesheet" href="' . get_option('b2c_dominio') . '/motor/v1/motor.css">'); ?>
-
-                    <br />
-                    <br />
-
-                    <strong>Shortcode:</strong>
-                    <br />
-                    <?= htmlspecialchars('[infotravel_motor_unified]'); ?>
-                </div>
-
-                <p style="font-weight: bold;color: red;">Para usar o motor, adicione o seguinte shortcode:</p>
-                <code>&lt;?php do_shortcode("[infotravel_motor_unified]"); ?&gt;</code>
-                <br />
-                <br />
-                <small>O shortcode acima carrega automaticamente todos os motores configurados</small>
             </div>
         </div>
         <div class="infotravel-card">
