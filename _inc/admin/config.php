@@ -185,7 +185,7 @@
                                             <td width="5%" />
                                             <td align="left">
                                                 <span class="infotravel-url-b2c-hospedagem">
-                                                    <input id="whiteLabel" name="whiteLabel" type="checkbox"
+                                                    <input id="whiteLabel" name="white_label" type="checkbox"
                                                         value="1" <?php echo (get_option('b2c_white_label', '0') === '1') ? 'checked' : ''; ?>>
                                                     <label for="whiteLabel">Ativar white label no motor</label>
                                                 </span>
