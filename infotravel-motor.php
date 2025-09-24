@@ -19,7 +19,7 @@
      * Text Domain: infotravel-motor
      *
      * @author INFOTERA TECNOLOGIA
-     * @version 3.5
+     * @version 3.6
     */
 
 // Certifique-se de não expor nenhuma informação se for chamado diretamente

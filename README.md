@@ -1,14 +1,14 @@
 # Plugin Infotravel Motor para WordPress
 
-## Versão 3.5 - Motor Unificado
+## Versão 3.6 - Motor Unificado
 
 Este plugin WordPress fornece integração com os motores de busca do Infotravel para hotéis, voos, pacotes e serviços através de uma interface única e unificada.
 
 ## Download
 
-**Última Versão:** [v3.5](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.5)
+**Última Versão:** [v3.6](https://github.com/ygor-infotera/b2c-motor-wp/releases/tag/v3.6)
 
-**Download Direto:** [Baixar v3.5](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.5.zip)
+**Download Direto:** [Baixar v3.6](https://github.com/ygor-infotera/b2c-motor-wp/archive/refs/tags/v3.6.zip)
 
 ## Funcionalidades
 
